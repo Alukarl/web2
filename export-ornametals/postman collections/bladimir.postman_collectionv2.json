@@ -1,0 +1,442 @@
+{
+	"variables": [],
+	"info": {
+		"name": "bladimir",
+		"_postman_id": "1ee7a4a0-57f6-01c1-6c9c-db82d06d2597",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "localhost:3000/containerts/1",
+			"request": {
+				"url": "localhost:3000/containerts/1",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"depreciation\": 5,\n    \"m_area\": 35\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "post localhost:3000/containerts",
+			"request": {
+				"url": "localhost:3000/containerts",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"depreciation\": 5,\n    \"m_area\": 35\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "get localhost:3000/containerts",
+			"request": {
+				"url": "localhost:3000/containerts",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"depreciation\": 5,\n    \"m_area\": 35\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "delete localhost:3000/containerts",
+			"request": {
+				"url": "localhost:3000/containerts/1",
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"depreciation\": 5,\n    \"m_area\": 35\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "edit localhost:3000/containerts",
+			"request": {
+				"url": "localhost:3000/containerts/2",
+				"method": "PATCH",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"depreciation\": 6,\n    \"m_area\": 35\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "gets plants",
+			"request": {
+				"url": "localhost:3000/plants",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"depreciation\": 6,\n    \"m_area\": 35\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "get plants",
+			"request": {
+				"url": "localhost:3000/plants/1",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"depreciation\": 6,\n    \"m_area\": 35\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "post plants",
+			"request": {
+				"url": "localhost:3000/plants",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"variant\": \"Warniki\",\n    \"temperature\": 12,\n    \"m_area\": 32\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Delete plants",
+			"request": {
+				"url": "localhost:3000/plants/2",
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"variant\": \"Warniki\",\n    \"temperature\": 12,\n    \"m_area\": 32\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "patch plants",
+			"request": {
+				"url": "localhost:3000/plants/1",
+				"method": "PATCH",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"variant\": \"Deremencis anita\",\n    \"temperature\": 12,\n    \"m_area\": 32\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "gat  ways",
+			"request": {
+				"url": "localhost:3000/ways",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"variant\": \"Deremencis anita\",\n    \"temperature\": 12,\n    \"m_area\": 32\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "gats  ways",
+			"request": {
+				"url": "localhost:3000/ways/1",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"variant\": \"Deremencis anita\",\n    \"temperature\": 12,\n    \"m_area\": 32\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "post  ways",
+			"request": {
+				"url": "localhost:3000/ways",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"distance\": 520,\n    \"stopes\":3\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "delete  ways",
+			"request": {
+				"url": "localhost:3000/ways/3",
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"distance\": 520,\n    \"stopes\":3\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "patch  ways",
+			"request": {
+				"url": "localhost:3000/ways/4",
+				"method": "PATCH",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"distance\": 400,\n    \"stopes\":2\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "gets calculates",
+			"request": {
+				"url": "localhost:3000/calculates",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"distance\": 400,\n    \"stopes\":2\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "get calculates",
+			"request": {
+				"url": "localhost:3000/calculates/1",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"distance\": 400,\n    \"stopes\":2\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "post calculates",
+			"request": {
+				"url": "localhost:3000/calculates",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n   \"number\": 623,\n   \"temp_carry\": 0,\n   \"cant_container\":0,\n   \"Plant_id\":1,\n   \"Containert_id\":2,\n   \"Way_id\":1\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "patch calculates",
+			"request": {
+				"url": "localhost:3000/calculates/2",
+				"method": "PATCH",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n   \"number\": 600,\n   \"temp_carry\": 0,\n   \"cant_container\":0,\n   \"Plant_id\":1,\n   \"Containert_id\":2,\n   \"Way_id\":1\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "patch calcular calculates",
+			"request": {
+				"url": "localhost:3000/calculates/2/calcular",
+				"method": "PATCH",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "get post clacular calculates",
+			"request": {
+				"url": "localhost:3000/calculates/2",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {},
+				"description": "el metodo de calcular da un error pero si realiza el calculo y lo guarda en base de datos"
+			},
+			"response": []
+		},
+		{
+			"name": "Delete calculates",
+			"request": {
+				"url": "localhost:3000/calculates/2",
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
