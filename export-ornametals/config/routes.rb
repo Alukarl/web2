@@ -1,6 +1,5 @@
 Rails.application.routes.draw do
   resources :calculates
-  patch '/calculates/:id/calcular', to: 'calculates#calcular'
   resources :containerts
   resources :ways
   resources :plants

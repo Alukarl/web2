@@ -4,6 +4,7 @@ class CalculatesController < ApplicationController
   # GET /calculates
   # GET /calculates.json
   def index
+    calcular
     @calculates = Calculate.all
   end
 
@@ -21,25 +22,20 @@ class CalculatesController < ApplicationController
   def edit
   end
 
-  #PATCH/PUT
+  #GET/calculates/calcular
   def calcular
-  respond_to do |format|
-    x = Calculate.find(params[:id])
-    container = Containert.find(x.Containert_id)
-    plant = Plant.find(x.Plant_id)
-    way = Way.find(x.Way_id)
-  	cantidad=container.m_area.to_f/plant.m_area.to_f
-  	cant_contenedor=x.number/cantidad
-  	temp=plant.temperature-((way.stopes*container.depreciation)/(way.distance/80))
-    @calculator=x
-  	if @calculator.update_attributes(:cant_container => cant_contenedor, :temp_carry => temp)
-
-            format.json { render :show, status: :ok, location: @calculator }
-        else
-          format.json { render json: @calculator.errors, status: :unprocessable_entity }
-        end
+    x = Calculate.all
+    for i in x; 
+      container = Containert.find(i.Containert_id)
+      plant = Plant.find(i.Plant_id)
+      way = Way.find(i.Way_id)
+      cantidad=container.m_area.to_f/plant.m_area.to_f
+      cant_contenedor=i.number/cantidad
+      temp=plant.temperature-((way.stopes*container.depreciation)/(way.distance/80))
+      i.update_attributes(:cant_container => cant_contenedor, :temp_carry => temp)
     end
   end
+    
 
   # POST /calculates
   # POST /calculates.json
